@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Java-goof
+  description: Java Goof
+  # Example for optional annotations
+  annotations:
+    snyk.io/org-name: brunosantosnet-pme
+    snyk.io/project-ids: b0b73522-0a26-4dc1-949e-0374f34a2ef1,258a0cae-a635-495e-a2ab-652863e22bbb
+spec:
+  type: service
+  owner: guest
+  lifecycle: production
